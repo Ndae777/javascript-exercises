@@ -9,8 +9,19 @@
 
 // Add your code right below, good luck!
 
+let firstName,lastName,thisYear,greeting;
 
 
+firstName = 'Carlos';
+lastName = 'Stevenson';
+thisYear = 1965;
+const birthYear = 1947;
+greeting = `Hello! My name is ${firstName} ${lastName} and I am ${thisYear - birthYear} years old.`;
+
+let fullName,age;
+fullName = firstName + " " + lastName;
+age = thisYear - birthYear;
+greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
 
 
 // Do not change this
